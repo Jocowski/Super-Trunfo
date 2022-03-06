@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo-principal">Super Trunfo - Marvel</h1>
+
+    <button class="botao" data-botao-comecar>Começar</button>
+
+    <div class="jogo" data-jogo>
+        <button class="botao" data-botao-sortear-carta>Sortear Carta</button>
+        <button class="botao" data-botao-jogar disabled>Jogar</button>
+
+        <div class="cartas">
+            <div class="carta" data-carta1></div>
+            <div class="carta" data-carta2></div>
+        </div>
+
+        <div class="escolha-atributo" data-escolha-atributo>
+            <h2>Escolha um Atributo:</h2>
+
+            <label><input type='radio' name='atributo' value='inteligencia'>Inteligência</label>
+            <label><input type='radio' name='atributo' value='forca'>Força</label>
+            <label><input type='radio' name='atributo' value='velocidade'>Velocidade</label>
+            <label><input type='radio' name='atributo' value='durabilidade'>Durabilidade</label>
+            <label><input type='radio' name='atributo' value='projecaoDeEnergia'>Projeção de Energia</label>
+            <label><input type='radio' name='atributo' value='habilidadesDeLuta'>Habilidades de Luta</label>
+        </div>
+
+        <p class="resultado" data-resultado></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

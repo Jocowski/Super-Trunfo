@@ -1,0 +1,57 @@
+body {
+    background-color: #CCC;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.botao {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.jogo {
+    display: none;
+}
+
+.cartas {
+    width: 100%;
+    display: flex;
+}
+
+.carta {
+    width: 360px;
+    height: 550px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 2rem auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+    border-radius: 33px;
+    border: 2px solid black;
+}
+
+.carta-nome {
+    background-color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.carta-status {
+    margin: 0 auto;
+}
+
+.resultado {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
