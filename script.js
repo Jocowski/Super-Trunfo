@@ -44,9 +44,44 @@ function comecar() {
     const cartaThor = new Carta("Thor", "img-cartas/Thor.jpg", 2, 7, 7, 6, 6, 4);
     const cartaVisao = new Carta("Visão", "img-cartas/Visao.jpg", 4, 5, 3, 6, 6, 3);
     const cartaMaquinaDeCombate = new Carta("Maquina De Combate", "img-cartas/Maquina-De-Combate.jpg", 3, 6, 5, 6, 6, 4);
+    const cartaDrax = new Carta("Drax", "img-cartas/Drax.jpg", 2, 5, 2, 7, 1, 4);
+    const cartaGamora = new Carta("Gamora", "img-cartas/Gamora.jpg", 3, 3, 4, 3, 1, 6);
+    const cartaGroot = new Carta("Groot", "img-cartas/Groot.jpg", 3, 7, 3, 4, 3, 4);
+    const cartaMantis = new Carta("Mantis", "img-cartas/Mantis.jpg", 3, 3, 2, 3, 3, 6);
+    const cartaNebula = new Carta("Nebula", "img-cartas/Nebula.jpg", 4, 5, 2, 3, 6, 4);
+    const cartaRocketRaccoon = new Carta("Rocket Raccoon", "img-cartas/Rocket-Raccoon.jpg", 3, 2, 2, 2, 1, 4);
+    const cartaPeggyCarter = new Carta("Peggy Carter", "img-cartas/Peggy-Carter.jpg", 3, 2, 2, 2, 1, 3);
+    const cartaSkye = new Carta("Skye", "img-cartas/Skye.jpg", 4, 2, 2, 2, 5, 6);
+    const cartaAncia = new Carta("Anciã", "img-cartas/ancia.jpg", 4, 3, 1, 4, 6, 6);
     const cartaDoutorEstranho = new Carta("Doutor Estranho", "img-cartas/Doutor-Estranho.jpg", 4, 2, 2, 2, 6, 6);
+    const cartaWong = new Carta("Wong", "img-cartas/Wong.jpg", 2, 2, 2, 2, 1, 5);
+    const cartaHeimdall = new Carta("Heimdall", "img-cartas/Heimdall.jpg", 2, 5, 3, 3, 1, 4);
+    const cartaSif = new Carta("Sif", "img-cartas/Sif.jpg", 2, 5, 2, 3, 1, 5);
+    const cartaValquiria = new Carta("Valquíria", "img-cartas/Valquiria,jpg", 2, 5, 2, 4, 1, 5);
+    const cartaPanteraNegra = new Carta("Pantera Negra", "img-cartas/Pantera-Negra.jpg", 5, 3, 2, 3, 3, 5);
+    const cartaIkaris = new Carta("Ikaris", "img-cartas/Ikaris.jpg", 2, 5, 5, 7, 6, 6);
+    const cartaKateBishop = new Carta("Kate Bishop", "img-cartas/Kate-Bishop.jpg", 3, 2, 2, 2, 1, 3);
+    const cartaPepperPotts = new Carta("Pepper Potts", "img-cartas/Pepper-Potts.jpg", 2, 5, 5, 5, 4, 2);
+    const cartaShangChi = new Carta("Shang Chi", "img-cartas/Shang-Chi.png", 3, 2, 2, 2, 1, 7);
+    const cartaSoldadoInvernal = new Carta("Soldado Invernal", "img-cartas/Soldado-Invernal.png", 2, 4, 2, 3, 1, 6);
+    const cartaAgathaHarkness = new Carta("Agatha Harkness", "img-cartas/Agatha-Harkness.jpg", 4, 1, 1, 1, 6, 1);
+    const cartaHela = new Carta("Hela", "img-cartas/Hela.jpg", 3, 7 , 3, 7 , 6, 3);
+    const cartaThanos = new Carta("Thanos", "img-cartas/Thanos.jpg", 6, 7, 3, 7, 6, 6, 4);
+    const cartaUltron = new Carta("Ultron", "img-cartas/Ultron.jpg", 4, 6, 3, 7, 6, 4);
+    const cartaCaveiraVermelha = new Carta("Caveira Vermelha", "img-cartas/Caveira-Vermelha.jpg", 5, 2, 2, 2, 1, 6);
+    const cartaRonan = new Carta("Ronan", "img-cartas/Ronan.jpg", 4, 5, 3, 6, 6, 6);
+    const cartaWilsonFisk = new Carta("Wilson Fisk", "img-cartas/Wilson-Fisk.jpg", 3, 3, 2, 2, 1, 5);
+    const cartaMysterio = new Carta("Mystério", "img-cartas/Mysterio.jpg", 4, 3, 2, 2, 4, 3);
+    const cartaLoki = new Carta("Loky", "img-cartas/Loki.jpg", 5, 4, 3, 6, 6, 3);
+    const cartaAgenteAmericano = new Carta("Agente Americano", "img-cartas/Agente-Americano.png", 2, 4, 3, 3, 2, 4);
+    const cartaVenom = new Carta("Venom", "img-cartas/Venom.jpg", 3, 4, 2, 6, 1, 4);
+    const cartaDuendeVerde = new Carta("Duende Verde", "img-cartas/Duende-Verde.jpg", 4, 4, 3, 4, 3, 3);
+    const cartaDoutorOctopus = new Carta("Doutor Octopus", "img-cartas/Doutor-Octopus.jpg", 5, 4, 3, 3, 1, 4);
+    const cartaHomemAreia = new Carta("Homem Areia", "img-cartas/Homem-Areia.jpg", 2, 6, 2, 6, 1, 4);
+    const cartaLagarto = new Carta("Lagarto", "img-cartas/Lagarto.jpg", 5, 4, 3, 5, 1, 2);
+    const cartaElectro = new Carta("Electro", "img-cartas/Electro.jpg", 2, 2, 2, 3, 5, 2);
 
-    cartas = [cartaHomemFormiga, cartaViuvaNegra, cartaCapitaoAmerica, cartaCapitaMarvel, cartaFalcao, cartaGaviaoArqueiro, cartaHulk, cartaHomemDeFerro, cartaFeiticeiraEscarlate, cartaHomemAranha, cartaThor, cartaVisao, cartaMaquinaDeCombate, cartaDoutorEstranho];
+    cartas = [cartaHomemFormiga, cartaViuvaNegra, cartaCapitaoAmerica, cartaCapitaMarvel, cartaFalcao, cartaGaviaoArqueiro, cartaHulk, cartaHomemDeFerro, cartaFeiticeiraEscarlate, cartaHomemAranha, cartaThor, cartaVisao, cartaMaquinaDeCombate, cartaDrax, cartaGamora, cartaGroot, cartaMantis, cartaNebula, cartaRocketRaccoon, cartaPeggyCarter, cartaSkye, cartaAncia, cartaDoutorEstranho, cartaWong, cartaHeimdall, cartaSif, cartaValquiria, cartaPanteraNegra, cartaIkaris, cartaKateBishop, cartaPepperPotts, cartaShangChi, cartaSoldadoInvernal, cartaAgathaHarkness, cartaHela, cartaThanos, cartaUltron, cartaCaveiraVermelha, cartaRonan, cartaWilsonFisk, cartaMysterio, cartaLoki, cartaAgenteAmericano, cartaVenom, cartaDuendeVerde, cartaDoutorOctopus, cartaHomemAreia, cartaLagarto, cartaElectro];
 }
 
 let rodada = 1;
